@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal; }
+
+html,
+body,
+.wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column; }
+
+.header {
+  width: 100%;
+  height: 50px;
+  background: url(../img/top.png) center center;
+  background-size: contain; }
+
+.main {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column; }
+  .main .top {
+    width: 100%;
+    height: 150px; }
+    .main .top .swiper-container {
+      width: 100%;
+      height: 100%; }
+      .main .top .swiper-container img {
+        width: 100%;
+        height: 100%; }
+  .main .tab {
+    width: 100%;
+    height: 190px;
+    padding: 10px; }
+    .main .tab div {
+      width: 100%;
+      height: 80px;
+      display: flex;
+      justify-content: space-around; }
+      .main .tab div:nth-child(2) {
+        margin-top: 10px; }
+      .main .tab div dl {
+        width: 100%;
+        height: 100%; }
+        .main .tab div dl dt {
+          width: 100%;
+          height: 50px;
+          text-align: center; }
+          .main .tab div dl dt img {
+            width: 50px;
+            height: 50px; }
+        .main .tab div dl dd {
+          width: 100%;
+          height: 30px;
+          line-height: 30px;
+          text-align: center; }
+  .main .title {
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+  .main .show {
+    flex: 1;
+    overflow: hidden; }
+    .main .show ul {
+      width: 100%; }
+      .main .show ul li {
+        padding: 10px;
+        width: 100%;
+        height: 140px; }
+        .main .show ul li dl {
+          width: 100%;
+          height: 100%;
+          position: relative;
+          display: flex; }
+          .main .show ul li dl .right {
+            position: absolute;
+            right: 0;
+            bottom: 50px;
+            font-size: 12px;
+            color: #b11515;
+            font-weight: 600; }
+            .main .show ul li dl .right i {
+              font-size: 18px; }
+          .main .show ul li dl dt {
+            height: 100%; }
+            .main .show ul li dl dt img {
+              height: 100%; }
+          .main .show ul li dl dd {
+            flex: 1;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            padding: 0 10px; }
+            .main .show ul li dl dd h5 {
+              width: 100%;
+              height: 30px;
+              font-size: 18px;
+              line-height: 30px; }
+            .main .show ul li dl dd .p1 {
+              width: 100%;
+              height: 25px;
+              line-height: 20px;
+              font-size: 12px; }
+              .main .show ul li dl dd .p1 span {
+                margin: 0 5px;
+                display: inline-block;
+                height: 20px;
+                border: 1px solid #e0a65a;
+                color: #e0a65a; }
+            .main .show ul li dl dd .p2 {
+              width: 100%;
+              height: 20px;
+              font-size: 12px;
+              color: #b4a8a8;
+              line-height: 20px; }
+              .main .show ul li dl dd .p2 span {
+                color: #e0a65a;
+                margin-right: 10px; }
+            .main .show ul li dl dd .p3 {
+              width: 100%;
+              height: 20px; }
+            .main .show ul li dl dd .p4 {
+              flex: 1;
+              color: #b4a8a8; }
+              .main .show ul li dl dd .p4 span {
+                float: right;
+                color: #b4a8a8; }
